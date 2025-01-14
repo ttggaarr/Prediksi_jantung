@@ -88,7 +88,7 @@ elif st.session_state.page == "Prediksi":
         fasting_blood_sugar = st.selectbox('Gula Darah Puasa (>120 mg/dL: 1, Lainnya: 0)', [0, 1])
         rest_ecg = st.selectbox('Hasil Elektrokardiografi (0-2)', [0, 1, 2])
         exercise_induced_angina = st.selectbox('Angina Induksi Olahraga (0: Tidak, 1: Ya)', [0, 1])
-        vessels_colored_by_flourosopy = st.selectbox('Pembuluh Darah Berwarna oleh Fluoroskopi (0-3)', [0, 1, 2, 3])
+        vessels_colored_by_flourosopy = st.selectbox('Pembuluh Darah Berwarna oleh Fluoroskopi (1-4)', [1, 2, 3, 4])
         thalassemia = st.selectbox('Talasemia (0: Tidak Diketahui, 1: Normal, 2: Cacat Tetap, 3: Cacat Reversibel)', [0, 1, 2, 3])
 
     # Code untuk prediksi
