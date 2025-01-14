@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 
 # load save model
-model = pickle.load(open('/path/ke/direktori/gb_model.sav', 'rb'))
+model = pickle.load(open('gb_model.sav', 'rb'))
 
 # Tambahkan CSS untuk mempercantik tampilan
 st.markdown("""
