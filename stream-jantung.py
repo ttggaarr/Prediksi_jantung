@@ -1,9 +1,11 @@
 import pickle
+import joblib
 import numpy as np
 import streamlit as st
 
 # load save model
-model = pickle.load(open('gb_model.sav', 'rb'))
+model = joblib.load('gb_model.sav')
+
 
 # Tambahkan CSS untuk mempercantik tampilan
 st.markdown("""
